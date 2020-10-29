@@ -42,7 +42,6 @@ def generate_matrix(rows, cols):
 
     '''
     r_matrix = np.random.random((rows, cols))
-    r_matrix = np.matrix(r_matrix)
     return r_matrix
 
 #3
